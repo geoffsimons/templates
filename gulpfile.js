@@ -17,9 +17,6 @@ gulp.task('test', function() {
   //TODO: Try nyan reporter.
 });
 
-//TODO: Experiment with a 'delayed' task to see if tasks run
-//      in parallel or serial.
-
 gulp.task('dev', function() {
   gulp.watch(['**/*.js', '!node_modules/**'], ['lint', 'test']);
 });
