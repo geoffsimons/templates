@@ -8,8 +8,11 @@ cp package.json $1/package.json
 # change to the new project root
 cd $1
 
+# NOTE: Removing git init because we often
+# are working with empty clones of forks
+# we are supposed to work in.
 # setup git, script assumes new project
-git init
+# git init
 
 # Install node dependencies
 npm i
