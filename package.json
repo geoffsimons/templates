@@ -1,29 +1,27 @@
 {
-  "name": "templates",
+  "name": "12-express-middleware-lab-geoff",
   "version": "1.0.0",
-  "description": "Base files for node.js projects",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "gulp test"
+    "test": "DEBUG='mnp*' mocha",
+    "start": "DEBUG='mnp*' node start.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/geoffsimons/templates.git"
-  },
-  "keywords": [
-    "nodejs",
-    "template"
-  ],
-  "author": "Geoff Simons",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/geoffsimons/templates/issues"
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "body-parser": "^1.15.2",
+    "debug": "^2.4.5",
+    "express": "^4.14.0",
+    "http-errors": "^1.5.1",
+    "morgan": "^1.7.0",
+    "node-uuid": "^1.4.7"
   },
-  "homepage": "https://github.com/geoffsimons/templates#readme",
   "devDependencies": {
     "chai": "^3.5.0",
-    "gulp": "^3.9.1",
-    "gulp-eslint": "^3.0.1",
-    "gulp-mocha": "^3.0.1"
+    "mocha": "^3.2.0",
+    "superagent": "^3.3.1"
   }
 }
