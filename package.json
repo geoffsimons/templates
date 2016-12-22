@@ -1,7 +1,7 @@
 {
-  "name": "12-express-middleware-lab-geoff",
+  "name": "REPLACE THIS NAME",
   "version": "1.0.0",
-  "description": "",
+  "description": "WHAT DO I DO?",
   "main": "index.js",
   "scripts": {
     "test": "DEBUG='mnp*' mocha",
